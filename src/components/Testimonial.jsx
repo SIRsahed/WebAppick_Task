@@ -25,9 +25,9 @@ const Testimonial = () => {
 
   const settings = {
     className: "center",
-    centerMode: true,
+centerMode: true,
     infinite: true,
-    centerPadding: "50px",
+    centerPadding: "0",
     slidesToShow: 3,
     speed: 500,
     nextArrow: <SampleNextArrow />,
@@ -79,6 +79,22 @@ const Testimonial = () => {
                 <FaStar />
               </div>
               <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Nany Brugman</h4>
+              <p className='para'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
+            </div>
+          </div>
+          <div className="">
+            <div className="lg:px-[48px] px-0 lg:pt-[48px] pt-0 lg:pb-[18px] pb-0 text-center">
+              <div className="w-[60px] mx-auto">
+                <img src={TestImg3} alt="testimonial_image" />
+              </div>
+              <div className="flex gap-x-[7px] justify-center pt-[16px] pb-[24px] text-[#FF9100]">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </div>
+              <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Alexa Nowan</h4>
               <p className='para'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
             </div>
           </div>

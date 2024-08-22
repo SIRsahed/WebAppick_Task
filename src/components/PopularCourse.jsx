@@ -36,6 +36,7 @@ const PopularCourse = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        swipeToSlide: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         responsive: [

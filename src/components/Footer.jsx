@@ -6,7 +6,7 @@ import FooterIcon2 from '../assets/footer2.png'
 
 const SubscribeForm = () => {
     return (
-        <section id='' className='lg:sec_pad pt-[104px] mt-[50px] bg-[#286054]'>
+        <section id='' className='lg:sec_pad pt-[104px] pb-[50px] mt-[50px] bg-[#286054]'>
             <Container>
                 <div className="text-center lg:pb-[155px] pb-[50px] relative">
                     <div className="">
@@ -20,15 +20,15 @@ const SubscribeForm = () => {
                     <div className="absolute lg:top-[84px] top-[350px] lg:right-[112px] right-0 lg:w-auto w-[15%]">
                         <img src={FooterIcon1} alt="footer_icon" />
                     </div>
-                    <div className="absolute lg:bottom-[105px] bottom-[37px] lg:left-[112px] left-[9px] lg:w-auto w-[13%]">
+                    <div className="absolute lg:bottom-[105px] bottom-[-120px] lg:left-[112px] left-[9px] lg:w-auto w-[13%]">
                         <img src={FooterIcon2} alt="footer_icon" />
                     </div>
                 </div>
-                <div className="lg:flex lg:justify-between text-center">
+                <div className="flex lg:flex-row flex-col lg:justify-between text-center">
                     <div className="lg:order-1 order-2 flex justify-center">
                         <img src={Logo} alt="logo" />
                     </div>
-                    <div className="lg:order-2 order-1">
+                    <div className="lg:order-2 order-1 mb-[50px] lg:mb\">
                         <ul className='flex lg:flex-row flex-col gap-[30px] lg:gap-x-[30px] text-[#FFFFFF99]'>
                             <li><a className='lg:border-none text-white rounded-sm' href="#">Home</a></li>
                             <li><a className='lg:border-none rounded-sm' href="#">Course</a></li>
