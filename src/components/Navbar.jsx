@@ -46,7 +46,7 @@ const Navbar = () => {
                             <a className='px-11 py-[7px] bg-[#CB8461] rounded-lg' href="#">Register</a>
                         </div>
                     </div>
-                    <div className="lg:hidden cursor-pointer text-white text-2xl" ref={barref}>
+                    <div className="lg:hidden cursor-pointer text-white text-4xl" ref={barref}>
                         <PiGridFourFill />
                     </div>
                 </div>
