@@ -26,7 +26,7 @@ const SkillShoot = () => {
                         </p>
                         <p className='lg:para para_res pb-[36px]'>we have been around since 2019 with currently 100+ updated materials and 15K members who have joined.</p>
                         <div className="flex justify-between flex-wrap">
-                            <div className="pb-[30px]">
+                            <div className="w-1/2 pb-[30px]">
                                 <div className="flex gap-x-[15px] items-center">
                                     <div className="lg:h-[50px] h-[30px] lg:w-[50px] w-[30px] rounded-full flex justify-center items-center bg-[#CB846130] lg:text-[25px] text-[18px] text-[#CB8461]">
                                         <FiUser/>
@@ -36,7 +36,7 @@ const SkillShoot = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="w-1/2 ">
                                 <div className="flex gap-x-[15px] items-center">
                                     <div className="lg:h-[50px] h-[30px] lg:w-[50px] w-[30px] rounded-full flex justify-center items-center bg-[#CB846130] lg:text-[25px] text-[18px] text-[#CB8461]">
                                         <FiUserCheck/>
@@ -46,7 +46,7 @@ const SkillShoot = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="w-1/2 ">
                                 <div className="flex gap-x-[15px] items-center">
                                     <div className="lg:h-[50px] h-[30px] lg:w-[50px] w-[30px] rounded-full flex justify-center items-center bg-[#CB846130] lg:text-[25px] text-[18px] text-[#CB8461]">
                                         <BiVideoRecording/>
@@ -56,8 +56,8 @@ const SkillShoot = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="">
-                                <div className="flex gap-x-[15px] items-center">
+                            <div className="w-1/2 ">
+                                <div className="flex lg:gap-x-[15px] items-center">
                                     <div className="lg:h-[50px] h-[30px] lg:w-[50px] w-[30px] rounded-full flex justify-center items-center bg-[#CB846130] lg:text-[25px] text-[18px] text-[#CB8461]">
                                         <FaRegCirclePlay/>
                                     </div>
