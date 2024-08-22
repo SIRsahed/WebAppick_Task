@@ -13,7 +13,7 @@ const Promote = () => {
                     <h2 className='lg:heading heading_res pb-[29px] text-[#2C2C2C]'><span className='text-[#CB8461]'>Improve</span> your skills, and reach your career as soon as possible</h2>
                 </div>
                 <div className="lg:pr-[67px] pr-0 lg:flex gap-x-5">
-                    <button className='lg:text-[20px] mb-5 text-[14px] font-bold text-white px-[25px] py-[15px] bg-[#CB8461] rounded-[4px]'>Join Now</button>
+                    <button className='lg:text-[20px] lg:mb-0 mb-[20px] text-[14px] font-bold text-white px-[25px] py-[15px] bg-[#CB8461] rounded-[4px]'>Join Now</button>
                     <button className='lg:text-[20px] text-[14px] font-bold text-white px-[25px] py-[15px] bg-[#245D51] rounded-[4px]'>Subscribe Course</button>
                 </div>
                 <div className="absolute lg:left-[50%] left-[92%] lg:bottom-[-25px] bottom-[95px]">
