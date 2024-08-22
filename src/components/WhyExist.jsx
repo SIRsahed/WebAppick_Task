@@ -36,22 +36,22 @@ const WhyExist = () => {
                 </div>
                 <div className="lg:w-1/2 w-full flex justify-between flex-wrap">
                     <div className="lg:w-[48%] w-full lg:pb-[61px] pb-[30px]">
-                        <img className='mx-auto' src={ExistIcon1} alt="exist_icon" />
+                        <img className='lg:mx-0 mx-auto' src={ExistIcon1} alt="exist_icon" />
                         <h3 className='lg:text-[24px] text-[18px] font-semibold text-[#245D51] pt-[30px] pb-[15px]'>Material Limitations</h3>
                         <p className='lg:para para_res lg:w-[95%] mx-auto lg:mx-0 w-[270px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="lg:w-[48%] w-full lg:pb-[61px] pb-[30px]">
-                        <img className='mx-auto' src={ExistIcon2} alt="exist_icon" />
+                        <img className='lg:mx-0 mx-auto' src={ExistIcon2} alt="exist_icon" />
                         <h3 className='lg:text-[24px] text-[18px] font-semibold text-[#245D51] pt-[30px] pb-[15px]'>MUnprofessional Mentor</h3>
                         <p className='lg:para para_res lg:w-[95%] mx-auto lg:mx-0 w-[270px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="lg:w-[48%] w-full lg:pb-[61px] pb-[30px]">
-                        <img className='mx-auto' src={ExistIcon3} alt="exist_icon" />
+                        <img className='lg:mx-0 mx-auto' src={ExistIcon3} alt="exist_icon" />
                         <h3 className='lg:text-[24px] text-[18px] font-semibold text-[#245D51] pt-[30px] pb-[15px]'>Video Quality</h3>
                         <p className='lg:para para_res lg:w-[95%] mx-auto lg:mx-0 w-[270px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className="lg:w-[48%] w-full lg:pb-[61px]">
-                        <img className='mx-auto' src={ExistIcon4} alt="exist_icon" />
+                        <img className='lg:mx-0 mx-auto' src={ExistIcon4} alt="exist_icon" />
                         <h3 className='lg:text-[24px] text-[18px] font-semibold text-[#245D51] pt-[30px] pb-[15px]'>High Price</h3>
                         <p className='lg:para para_res lg:w-[95%] mx-auto lg:mx-0 w-[270px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>

@@ -25,10 +25,10 @@ const SubscribeForm = () => {
                     </div>
                 </div>
                 <div className="flex lg:flex-row flex-col lg:justify-between text-center">
-                    <div className="lg:order-1 order-2 flex justify-center">
+                    <div className="lg:order-1 order-2 flex lg:block justify-center">
                         <img src={Logo} alt="logo" />
                     </div>
-                    <div className="lg:order-2 order-1 mb-[50px] lg:mb\">
+                    <div className="lg:order-2 order-1 mb-[50px] lg:mb-0">
                         <ul className='flex lg:flex-row flex-col gap-[30px] lg:gap-x-[30px] text-[#FFFFFF99]'>
                             <li><a className='lg:border-none text-white rounded-sm' href="#">Home</a></li>
                             <li><a className='lg:border-none rounded-sm' href="#">Course</a></li>

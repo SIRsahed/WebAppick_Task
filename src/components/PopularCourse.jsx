@@ -59,7 +59,7 @@ const PopularCourse = () => {
                     <img className='absolute lg:top-[52px] top-[-25px] lg:right-[97px] right-[-5px]' src={PCIcon2} alt="icon" />
                 </div>
                 <Slider {...settings}>
-                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5">
+                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5 lg:px-0 px-5">
                         <div className="relative">
                             <div className="lg:h-[249px] h-[166px]">
                                 <video className='h-full w-full' src={Video} type="video/mp4" controls poster={PcThumb1}></video>
@@ -97,7 +97,7 @@ const PopularCourse = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5">
+                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5 lg:px-0 px-6">
                         <div className="relative">
                             <div className="lg:h-[249px] h-[166px]">
                                 <video className='h-full w-full' src={Video} type="video/mp4" controls poster={PcThumb2}></video>
@@ -135,7 +135,7 @@ const PopularCourse = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5">
+                    <div className="lg:!w-[95%] bg-[#FAFAFA] rounded-[15px] pb-5 lg:px-0 px-5">
                         <div className="relative">
                             <div className="lg:h-[249px] h-[166px]">
                                 <video className='h-full w-full' src={Video} type="video/mp4" controls poster={PcThumb3}></video>

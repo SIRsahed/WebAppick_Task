@@ -12,14 +12,14 @@ const Testimonial = () => {
   function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-      <div className='lg:h-[55px] lg:w-[55px] w-[40px] h-[40px] bg-white hover:bg-[#245D51] rounded-full flex justify-center items-center absolute bottom-[-100px] right-[45%] z-40 border-[5px] border-[#F5F5F5] cursor-pointer text-[#0C111F] hover:text-white duration-300 ease-in-out' onClick={onClick}><HiArrowSmRight className='inline-block lg:text-[35px]' /></div>
+      <div className='lg:h-[55px] lg:w-[55px] w-[40px] h-[40px] bg-white hover:bg-[#CB8461] rounded-full flex justify-center items-center absolute lg:bottom-[-100px] bottom-[-60px] lg:right-[45%] right-[35%] z-40 border-[5px] border-[#F5F5F5] cursor-pointer text-[#0C111F] hover:text-white duration-300 ease-in-out' onClick={onClick}><HiArrowSmRight className='inline-block lg:text-[35px]' /></div>
     );
   }
 
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className='lg:h-[55px] lg:w-[55px] w-[40px] h-[40px] bg-[#FFF] hover:bg-[#245D51] rounded-full flex justify-center items-center absolute bottom-[-100px] left-[45%] z-40 border-[5px] border-[#F5F5F5] cursor-pointer text-[#0C111F] hover:text-white duration-300 ease-in-out' onClick={onClick}><HiArrowSmLeft className='inline-block lg:text-[35px]' /></div>
+      <div className='lg:h-[55px] lg:w-[55px] w-[40px] h-[40px] bg-[#FFF] hover:bg-[#CB8461] rounded-full flex justify-center items-center absolute lg:bottom-[-100px] bottom-[-60px] lg:left-[40%] left-[35%] z-40 border-[5px] border-[#F5F5F5] cursor-pointer text-[#0C111F] hover:text-white duration-300 ease-in-out' onClick={onClick}><HiArrowSmLeft className='inline-block lg:text-[35px]' /></div>
     );
   }
 
@@ -51,7 +51,7 @@ centerMode: true,
         </div>
         <Slider {...settings}>
           <div className="">
-            <div className="lg:px-[48px] px-0 lg:pt-[48px] pt-0 lg:pb-[18px] pb-0 text-center">
+            <div className="lg:px-[48px] px-[38px] pt-[48px] pb-[18px] text-center">
               <div className="w-[60px] mx-auto">
                 <img src={TestImg1} alt="testimonial_image" />
               </div>
@@ -62,12 +62,12 @@ centerMode: true,
                 <FaStar />
                 <FaStar />
               </div>
-              <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Jason Bay</h4>
+              <h4 className='lg:text-[24px] text-[18px] font-normal text-[#2C2C2C] pb-[10px]'>Jason Bay</h4>
               <p className='lg:para para_res'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
             </div>
           </div>
           <div className="">
-            <div className="lg:px-[48px] px-0 lg:pt-[48px] pt-0 lg:pb-[18px] pb-0 text-center">
+            <div className="lg:px-[48px] px-[38px] pt-[48px] pb-[18px] text-center">
               <div className="w-[60px] mx-auto">
                 <img src={TestImg2} alt="testimonial_image" />
               </div>
@@ -78,12 +78,12 @@ centerMode: true,
                 <FaStar />
                 <FaStar />
               </div>
-              <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Nany Brugman</h4>
-              <p className='para'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
+              <h4 className='lg:text-[24px] text-[18px] font-normal text-[#2C2C2C] pb-[10px]'>Nany Brugman</h4>
+              <p className='lg:para para_res'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
             </div>
           </div>
           <div className="">
-            <div className="lg:px-[48px] px-0 lg:pt-[48px] pt-0 lg:pb-[18px] pb-0 text-center">
+            <div className="lg:px-[48px] px-[38px] pt-[48px] pb-[18px] text-center">
               <div className="w-[60px] mx-auto">
                 <img src={TestImg3} alt="testimonial_image" />
               </div>
@@ -94,12 +94,12 @@ centerMode: true,
                 <FaStar />
                 <FaStar />
               </div>
-              <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Alexa Nowan</h4>
-              <p className='para'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
+              <h4 className='lg:text-[24px] text-[18px] font-normal text-[#2C2C2C] pb-[10px]'>Alexa Nowan</h4>
+              <p className='lg:para para_res'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
             </div>
           </div>
           <div className="">
-            <div className="lg:px-[48px] px-0 lg:pt-[48px] pt-0 lg:pb-[18px] pb-0 text-center">
+            <div className="lg:px-[48px] px-[38px] pt-[48px] pb-[18px] text-center">
               <div className="w-[60px] mx-auto">
                 <img src={TestImg3} alt="testimonial_image" />
               </div>
@@ -110,8 +110,8 @@ centerMode: true,
                 <FaStar />
                 <FaStar />
               </div>
-              <h4 className='text-[24px] font-normal text-[#2C2C2C] pb-[10px]'>Alexa Nowan</h4>
-              <p className='para'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
+              <h4 className='lg:text-[24px] text-[18px] font-normal text-[#2C2C2C] pb-[10px]'>Alexa Nowan</h4>
+              <p className='lg:para para_res'>I am quite satisfied, because the skills I want or dream of can really be mastered</p>
             </div>
           </div>
         </Slider>
